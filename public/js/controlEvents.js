@@ -3,7 +3,7 @@ var urlEncodedParser = bodyParser.urlencoded({extended : false});
 
 // var mongoose = require('mongoose');
 // mongoose.connect('mongodb://test:test@ds032340.mlab.com:32340/event_manager_app_data');
-
+ 
 // var eventSchema = new mongoose.Schema(
 // {
 // 	name: String
