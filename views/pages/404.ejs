@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title> 404 | EventIT </title>
+    <% include ../partials/head %>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/home"> EventIT </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/about">About</a>
+                    </li>
+                    <li>
+                        <a href="/services">Services</a>
+                    </li>
+                    <li>
+                        <a href="/contact">Contact</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Events <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="/cultural"> Cultural </a>
+                            </li>
+                            <li>
+                                <a href="/technical"> Technical </a>
+                            </li>
+                            <li>
+                                <a href="/sports"> Sports </a>
+                            </li>
+                            <li><hr>
+                                <a href="/all_events">All Events</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/logout">Logout</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">404
+                    <small>Page Not Found</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="/home">Home</a>
+                    </li>
+                    <li class="active">404</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <div class="row">
+
+            <div class="col-lg-12">
+                <div class="jumbotron">
+                    <h1><span class="error-404">404</span>
+                    </h1>
+                    <p>The page you're looking for could not be found. Here are some helpful links to get you back on track:</p>
+                    <ul>
+                        <li>
+                            <a href="/home">Home</a>
+                        </li>
+                        <li>
+                            <a href="/about">About</a>
+                        </li>
+                        <li>
+                            <a href="/services">Services</a>
+                        </li>
+                        <li>
+                            <a href="/contact">Contact</a>
+                        </li>
+                        <li>
+                            Events
+                            <ul>
+                                <li>
+                                    <a href="/cultural"> Cultural </a>
+                                </li>
+                                <li>
+                                    <a href="/technical"> Technical </a>
+                                </li>
+                                <li>
+                                    <a href="/sports"> Sports </a>
+                                </li>
+                                <li>
+                                    <a href="/all_events">All Events</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                           <a href="/logout">Logout</a>
+                        </li>
+                        <li>
+                           <a href="/login">Login</a>
+                        </li>
+                        <li>
+                           <a href="/signup">Signup</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <% include ../partials/footer %>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
